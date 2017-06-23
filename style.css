@@ -1,0 +1,350 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+h1, h3, p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header-txt h1:first-child {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    margin-bottom: -30px;
+}
+.header-txt h1:nth-child(2) {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+.header-txt {
+    margin-top: 30%;
+    float: right;
+}
+.header-txt h1 {
+    font-size: 60px;
+}
+@media (min-width:768px) and (max-width:1030px) {
+    .header-txt h1 {
+        font-size: 40px;
+    }
+}
+@media (max-width:767px) {
+    .header-txt h1 {
+        font-size: 20px;
+    }
+}
+.header-txt h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    font-weight: 800;
+    display: inline-block
+}
+.header-txt h3::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: black;
+    width: 50px;
+    margin-left: 72%;
+    margin-top: 5px;
+}
+.header-row, .container-work{
+    background-color: aliceblue;
+}
+
+.header-img {
+    float: left;
+}
+@media (min-width:481px) and (max-width:767px) {
+    .header-img {
+        
+    }
+}
+
+.title h3 {
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    font-size: 46px;
+    font-weight: 800;
+}
+.title h3::before {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: black;
+    width: 50px;
+    margin-bottom: 5px;
+}
+.title p {
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+.about-row {
+    margin-top: 150px;
+}
+
+.icons-row {
+    text-align: center;
+    margin-top: 80px;
+}
+.icons-row .fa {
+    color: skyblue;
+}
+.icons-row .fa:hover {
+    color: lightseagreen;
+}
+.icons-row p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 30px;
+    letter-spacing: 3px;
+}
+.icons2-row {
+    text-align: left;
+    margin-top: 80px;
+}
+.icons2-row .fa {
+    color: skyblue;
+}
+.icons2-row .fa:hover {
+    color: lightseagreen;
+}
+.icons2-row h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 52px;
+}
+.about-txt-row {
+    margin-top: 80px;
+    font-family: 'Raleway', sans-serif;
+}
+.about-txt-row h3 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    text-align: right;
+}
+.about-txt-row p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+    padding: 0 15px 0 15px;
+    color: #95a5a6;
+}
+.button-1 {
+    text-align: center;
+    margin-bottom: 75px;
+}
+.button-1 h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    border: 1px solid skyblue;
+    padding: 15px;
+    border-radius: 3px;
+    color: skyblue;
+    margin-top: 80px;
+}
+
+.work-row {
+    margin-top: 75px;
+}
+
+#bunny-img {
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 40px;
+}
+
+.work h3, .work p {
+    position: absolute;
+    font-family: 'Raleway', sans-serif; 
+}
+.work h3 {
+    left: 10%;
+    top: 50%;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 800;
+}
+.work h3::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: black;
+    width: 50px;
+    margin-left: 72%;
+    margin-top: 5px;
+}
+.work p {
+    top: 48%;
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 600; 
+    margin-left: 15%
+}
+#bunny-img2 {
+    width: 60%;
+    margin-left: 10%;
+}
+.work2 h3, .work2 p {
+    position: absolute;
+    font-family: 'Raleway', sans-serif; 
+}
+.work2 h3 {
+    top: 40%;
+    right: 0;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 800;
+}
+.work2 h3::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: black;
+    width: 50px;
+    margin-top: 5px;
+}
+.work2 p {
+    top: 38%;
+    right: 0;
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 600;   
+}
+
+.profil-row {
+    margin-top: 150px;
+}
+
+.profil {
+    margin: 20px 0 30px 0;
+    text-align: left;
+}
+.profil h4 {
+    font-family: 'Raleway', sans-serif; 
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.profil p {
+    font-family: 'Raleway', sans-serif; 
+    font-size: 12px;
+    font-weight: 500;
+    color: #95a5a6;
+    letter-spacing: 0.5px;
+}
+
+.line1 {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #95a5a6;
+    width: 100%;
+    margin-top: 5px;
+}
+.line1::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: skyblue;
+    width: 80%;
+    margin-top: 5px;
+}
+.line2 {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #95a5a6;
+    width: 100%;
+    margin-top: 5px;
+}
+.line2::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: skyblue;
+    width: 70%;
+    margin-top: 5px;
+}
+.line3 {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #95a5a6;
+    width: 100%;
+    margin-top: 5px;
+}
+.line3::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: skyblue;
+    width: 60%;
+    margin-top: 5px;
+}
+.work2 {
+    margin-bottom: 75px;
+}
+
+.col-xs-12 {
+    
+}
+
+.button-2 {
+    text-align: center;
+}
+.button-2 h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    border: 1px solid skyblue;
+    padding: 15px;
+    border-radius: 3px;
+    color: skyblue;
+    margin-top: 80px;
+}
+.top {
+    height: 280px;
+    background-color: aliceblue;
+}
+.top h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 46px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.icons01 {
+    padding: 10px;
+}
+
+.contact h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 46px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.contact-icons {
+    text-align: center;
+}
+.contact-icons i {
+    margin: 30px;
+    color: skyblue;
+}
+.contact-icons i:hover {
+    color: lightseagreen;
+}
+.contact {
+    margin-top: 75px;
+}
